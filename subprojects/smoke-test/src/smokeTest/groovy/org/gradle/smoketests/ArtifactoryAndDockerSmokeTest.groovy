@@ -31,7 +31,7 @@ class ArtifactoryAndDockerSmokeTest extends AbstractPluginValidatingSmokeTest {
             plugins {
                 id 'java-library'
                 id 'maven-publish'
-                id 'com.bmuschko.docker-remote-api' version '${TestedVersions.docker}'
+                id 'com.bmuschko.docker-remote-api' version '6.6.1'
                 id 'com.jfrog.artifactory' version '${TestedVersions.artifactoryPlugin}'
             }
 
